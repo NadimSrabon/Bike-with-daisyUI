@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html data-theme="light" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike Zone</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- -----font style------ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        .font-poppins {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="md:container md:mx-auto">
+        <nav>
+            <div class="navbar ">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-[30px] z-[1] p-2 shadow bg-base-100 rounded-box w-52 ml-[120px] ">
+                            <li><a>Home</a></li>
+                            <li><a>Shop</a></li>
+                            <li><a>News</a></li>
+                            <li><a>Contact</a></li>
+                        </ul>
+                    </div>
+                    <a
+                        class="btn btn-ghost text-sm font-poppins lg:text-[35px] font-[700]   lg:mt-[30px]  lg:ml-[60px] ">Bike
+                        Dekho</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul
+                        class="menu menu-horizontal px-1 font-poppins text-[16px] font-[500] text-[black] mt-[30px] ml-[120px]">
+                        <li><a>Home</a></li>
+                        <li><a>Shop</a></li>
+                        <li><a>News</a></li>
+                        <li><a>Contact</a></li>
+                </div>
+                <div class="navbar-end w-auto mt-5 ml-20 ">
+                    <a
+                        class="btn btn-error text-[white] font-poppins lg:text-[20px] font-[700] lg:w-[160px] lg:h-[64px] ">Login</a>
+                </div>
+            </div>
+        </nav>
+        <div class="w-[80%] m-auto pt-10 ">
+            <div class="carousel w-full h-[500px] bg-[#e76f511a]">
+                <div id="slide1" class="carousel-item relative w-full ">
+                    <div class="flex ml-[60px] mt-20">
+                        <div class="pl-10">
+                            <h3 class="text-[black] font-poppins text-[60px] font-[700]">Ride-on R15 V4
+                                <br>
+                                with Smile
+                            </h3>
+                            <p class="text-[black] font-poppins text-[16px] font-[300]">
+                                Get the most premium 250 CC Bullet Bike.
+                                <br>
+                                Get a 20% discount on it.
+                            </p>
+                            <button
+                                class="btn btn-error text-[white] font-poppins lg:text-[20px] font-[700] lg:w-[160px] lg:h-[64px] mt-10">Purchase</button>
+
+
+                        </div>
+                        <div class="pl-[50px]">
+                            <img src="images/slider/bike3.png" class="w-[500px]">
+
+                        </div>
+                    </div>
+
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+
+                <div id="slide2" class="carousel-item relative w-full">
+                    <div class="flex ml-[60px] mt-20">
+                        <div class="pl-10">
+                            <h3 class="text-[black] font-poppins text-[60px] font-[700]">Ride-on R15 V4
+                                <br>
+                                with Smile
+                            </h3>
+                            <p class="text-[black] font-poppins text-[16px] font-[300]">
+                                Get the most premium 250 CC Bullet Bike.
+                                <br>
+                                Get a 20% discount on it.
+                            </p>
+                            <button
+                                class="btn btn-error text-[white] font-poppins lg:text-[20px] font-[700] lg:w-[160px] lg:h-[64px] mt-10">Purchase</button>
+
+
+                        </div>
+                        <div class="pl-[50px]">
+                            <img src="images/slider/bike4.png" class="w-[500px]">
+
+                        </div>
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide1" class="btn btn-circle">❮</a>
+                            <a href="#slide3" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full">
+                    <div class="flex ml-[60px] mt-20">
+                        <div class="pl-10">
+                            <h3 class="text-[black] font-poppins text-[60px] font-[700]">Ride-on R15 V4
+                                <br>
+                                with Smile
+                            </h3>
+                            <p class="text-[black] font-poppins text-[16px] font-[300]">
+                                Get the most premium 250 CC Bullet Bike.
+                                <br>
+                                Get a 20% discount on it.
+                            </p>
+                            <button
+                                class="btn btn-error text-[white] font-poppins lg:text-[20px] font-[700] lg:w-[160px] lg:h-[64px] mt-10">Purchase</button>
+
+
+                        </div>
+                        <div class="pl-[50px]">
+                            <img src="images/slider/bike1.png" class="w-[500px]">
+
+                        </div>
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide2" class="btn btn-circle">❮</a>
+                            <a href="#slide4" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="slide4" class="carousel-item relative w-full">
+                    <div class="flex ml-[60px] mt-20">
+                        <div class="pl-10">
+                            <h3 class="text-[black] font-poppins text-[60px] font-[700]">Ride-on R15 V4
+                                <br>
+                                with Smile
+                            </h3>
+                            <p class="text-[black] font-poppins text-[16px] font-[300]">
+                                Get the most premium 250 CC Bullet Bike.
+                                <br>
+                                Get a 20% discount on it.
+                            </p>
+                            <button
+                                class="btn btn-error text-[white] font-poppins lg:text-[20px] font-[700] lg:w-[160px] lg:h-[64px] mt-10">Purchase</button>
+
+
+                        </div>
+                        <div class="pl-[50px]">
+                            <img src="images/slider/bike2.png" class="w-[500px]">
+
+                        </div>
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide3" class="btn btn-circle">❮</a>
+                            <a href="#slide1" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </header>
+
+    <main class="md:container md:mx-auto">
+
+        <section>
+            <div class="ml-[100px] mt-[180px]">
+                <h2 class="text-[black] font-poppins text-[48px] font-[700] pl-[400px]">Fetured Bikes In This Year</h2>
+                <p class="text-[#E76F51] font-poppins text-[14px] font-[600] pl-[620px]">Best bike collection</p>
+            </div>
+
+            <div class="flex grid-cols-1 space-x-[90px] mt-[60px] ml-[210px]">
+                <div>
+                    <img src="images/others/feature-bike.png" alt="">
+
+
+                </div>
+
+                <div>
+                    <img src="images/others/latest2.png" alt="">
+
+                </div>
+
+                <div>
+                    <img src="images/others/latest1.png" alt="">
+
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-20">
+            <h2 class="text-[black] font-poppins text-[48px] font-[600] text-center">Latest News</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 mt-20 p-10">
+                <div class="card bg-base-100 shadow-xl">
+                    <figure><img src="images/others/latest1.png" alt=""></figure>
+                    <div class="card-body">
+                        <h2 class="card-title text-[#18191F] font-poppins text-[28px] font-[600]">Ducati XDIAVEL S-73
+                        </h2>
+                        <p class="text-[#6C6C6C] font-poppins text-[16px] font-[400] mt-4"> 2024 Ducati XDiavel S on
+                            road price is Rs 29.83 lakh in Delhi, Rs 30.84 lakh in Mumbai, Rs 30.20 lakh in Kolkata</p>
+                        <div class="card-actions">
+                            <button
+                                class="btn btn-error text-[white] font-poppins lg:text-[20px] font-[700] lg:w-[160px] lg:h-[64px] mt-4 ">Read
+                                More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-base-100 shadow-xl">
+                    <figure><img src="images/others/latest2.png" alt=""></figure>
+                    <div class="card-body">
+                        <h2 class="card-title card-title text-[#18191F] font-poppins text-[28px] font-[600] ">
+                            Motorcycles & Scooters</h2>
+                        <p class="text-[#6C6C6C] font-poppins text-[16px] font-[400] mt-4">For 2024 Yamaha will be
+                            introducing completely restyled and higher specification MT-09 and MT-09 SP Hyper Naked
+                            models.</p>
+                        <div class="card-actions">
+                            <button
+                                class="btn btn-error text-[white] font-poppins lg:text-[20px] font-[700] lg:w-[160px] lg:h-[64px] ">Read
+                                More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-base-100 shadow-xl">
+                    <figure><img src="images/others/latest3.png" alt=""></figure>
+                    <div class="card-body">
+                        <h2 class="card-title card-title text-[#18191F] font-poppins text-[28px] font-[600] ">2021 Honda
+                            CBR500R</h2>
+                        <p class="text-[#6C6C6C] font-poppins text-[16px] font-[400] mt-4">CBR500Rs are pretty much bomb
+                            proof and our online reader reviews give nothing but glowing comments.</p>
+                        <div class="card-actions">
+                            <button
+                                class="btn btn-error text-[white] font-poppins lg:text-[20px] font-[700] lg:w-[160px] lg:h-[64px] ">Read
+                                More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="p-10">
+            <h2 class="text-[#0A0826] font-poppins text-[48px] font-[600] text-center mt-20">Happy <span
+                    class="text-[#E76F51]">Clients Says</span></h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-20 gap-10">
+                <div class="card bg-base-100  border border-gray-400">
+                    <figure><img src="images/others/user-1.png" alt="" class="p-[60px]"></figure>
+                    <div class="card-body">
+                        <p class="text-[#6C6C6C] font-poppins text-[16px] font-[400]">Slate helps you see how
+                            many more days you need
+                            to work to reach your financial
+                            goal for the month and year.</p>
+                        <div class="rating justify-center mt-4">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        </div>
+                        <br>
+                        <p class="text-[#23A6F0] font-poppins text-[14px] font-[600] text-center">Regina Miles</p>
+                        <p class="text-[#252B42] font-poppins text-[14px] font-[600] text-center">Banker</p>
+
+
+
+                    </div>
+                </div>
+                <div class="card bg-base-100  border border-gray-400">
+                    <figure><img src="images/others/user-2.png" alt="" class="p-[60px]"></figure>
+                    <div class="card-body">
+                        <p class="text-[#6C6C6C] font-poppins text-[16px] font-[400]">Slate helps you see how
+                            many more days you need
+                            to work to reach your financial
+                            goal for the month and year.</p>
+                        <div class="rating justify-center mt-4">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        </div>
+                        <br>
+                        <p class="text-[#23A6F0] font-poppins text-[14px] font-[600] text-center">Regina Miles</p>
+                        <p class="text-[#252B42] font-poppins text-[14px] font-[600] text-center">Banker</p>
+
+
+
+                    </div>
+                </div>
+                <div class="card bg-base-100  border border-gray-400">
+                    <figure><img src="images/others/user-3.png" alt="" class="p-[60px]"></figure>
+                    <div class="card-body">
+                        <p class="text-[#6C6C6C] font-poppins text-[16px] font-[400]">Slate helps you see how
+                            many more days you need
+                            to work to reach your financial
+                            goal for the month and year.</p>
+                        <div class="rating justify-center mt-4">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        </div>
+                        <br>
+                        <p class="text-[#23A6F0] font-poppins text-[14px] font-[600] text-center">Regina Miles</p>
+                        <p class="text-[#252B42] font-poppins text-[14px] font-[600] text-center">Banker</p>
+
+
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="my-20">
+
+            <h2 class="text-[#0D0925] font-poppins text-[48px] font-[600] text-center ">Frequently Asked <span class="text-[#E76F51] font-poppins text-[48px] font-[600]">Questions</span></h2>
+            <div class="hero min-h-screen bg-base-100">
+                <div class="hero-content flex-col lg:flex-row gap-20">
+                    <img src="images/others/faq.png" />
+                    <div class="border border-red-400">
+                        <div class="collapse collapse-arrow bg-base-200">
+                            <input type="radio" name="my-accordion-2" checked="checked" />
+                            <div class="collapse-title text-xl font-medium">
+                                What are the most important things I should
+                                know about riding a bike?
+                            </div>
+                            <div class="collapse-content">
+                                <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                            </div>
+                        </div>
+                        <div class="collapse collapse-arrow bg-base-200">
+                            <input type="radio" name="my-accordion-2" />
+                            <div class="collapse-title text-xl font-medium">
+                                How can I tell if my helmet is old and I need a 
+                                new one?
+                            </div>
+                            <div class="collapse-content">
+                                <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider</p>
+                            </div>
+                        </div>
+                        <div class="collapse collapse-arrow bg-base-200">
+                            <input type="radio" name="my-accordion-2" />
+                            <div class="collapse-title text-xl font-medium">
+                                How can I tell if my helmet is old and I need a 
+                                new one?
+                            </div>
+                            <div class="collapse-content">
+                                <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+    </main>
+
+    <footer class="footer p-10 bg-neutral text-neutral-content">
+        <aside>
+          <p>Bike Dekho LTD.
+            <br>
+            <br>
+            Providing reliable tech since 1992</p>
+        </aside> 
+        <nav>
+          <header class="footer-title">Get The App</header> 
+          <div class="grid grid-cols-1 gap-4">
+            <a><img class="w-36" src="images/others/android.png" alt=""></a>
+            <a><img class="w-36" src="images/others/ios.png" alt=""></a>
+          </div>
+        </nav>
+      </footer>
+
+</body>
+
+</html>
